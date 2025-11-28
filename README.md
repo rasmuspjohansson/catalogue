@@ -2,6 +2,8 @@
 
 A structured sketch of what to include in a catalogue of machine-learning models and datasets.
 
+If you have suggestions to changes , please make a git hub pull request
+
 ---
 
 ## ML Tasks
