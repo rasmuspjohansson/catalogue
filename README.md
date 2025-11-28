@@ -5,6 +5,8 @@ A structured sketch of what to include in a catalogue of machine-learning models
 If you have suggestions to changes , please make a git hub pull request
 
 ---
+## wo to contact reagrding this model/dataset
+  email 
 
 ## ML Tasks
 
@@ -28,19 +30,20 @@ Examples of architectures included in the catalogue:
 
 ---
 
-## Input Data
+## Input Data format
 
 - **uint8 GeoTIFF images** (N channels)  
 - Additional geospatial or sensor data formats (optional)
 
 ---
 
-## Output Data
+## Output Data format
 
 - **uint8 GeoTIFF images**  
 - Segmentation masks  
 - Bounding boxes  
-- Point-cloud labels  
+- Point-cloud labels
+- class labels (buildings, asfalt, road markings , people, balconys, windows , water, roads , gravel )
 (Depending on task)
 
 ---
