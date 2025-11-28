@@ -8,7 +8,7 @@ If you have suggestions to changes , please make a git hub pull request
 ## wo to contact reagrding this model/dataset
   email 
 
-## ML Tasks
+## ML Task
 
 - **Semantic segmentation**
 - **Object detection**
@@ -17,7 +17,7 @@ If you have suggestions to changes , please make a git hub pull request
 
 ---
 
-## Model Architectures
+## Model Architecture
 
 Examples of architectures included in the catalogue:
 
@@ -27,6 +27,7 @@ Examples of architectures included in the catalogue:
 - EfficientNet  
 - Point Transformer  
 - (Add more as needed)
+- enamble of these models [unet with efficientnetv2-M backbone]
 
 ---
 
@@ -45,6 +46,9 @@ Examples of architectures included in the catalogue:
 - Point-cloud labels
 - class labels (buildings, asfalt, road markings , people, balconys, windows , water, roads , gravel )
 (Depending on task)
+
+## Benchmark result
+  rsult on KDS-change detection dataset : 98% pixel accuracy, change detection Precision score 0.5 , change detction recall score : 0.6 
 
 ---
 
