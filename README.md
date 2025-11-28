@@ -2,11 +2,14 @@
 
 A structured sketch of what to include in a catalogue of machine-learning models and datasets.
 
-If you have suggestions to changes , please make a git hub pull request
+If you have suggestions for changes, please make a GitHub pull request.
 
 ---
-## wo to contact reagrding this model/dataset
-  email 
+
+## Who to contact regarding this model/dataset
+Email:
+
+---
 
 ## ML Task
 
@@ -27,28 +30,34 @@ Examples of architectures included in the catalogue:
 - EfficientNet  
 - Point Transformer  
 - (Add more as needed)
-- enamble of these models [unet with efficientnetv2-M backbone]
+- Ensemble of these models (e.g., U-Net with EfficientNetV2-M backbone)
 
 ---
 
-## Input Data format
+## Input Data Format
 
 - **uint8 GeoTIFF images** (N channels)  
 - Additional geospatial or sensor data formats (optional)
 
 ---
 
-## Output Data format
+## Output Data Format
 
 - **uint8 GeoTIFF images**  
 - Segmentation masks  
 - Bounding boxes  
-- Point-cloud labels
-- class labels (buildings, asfalt, road markings , people, balconys, windows , water, roads , gravel )
+- Point-cloud labels  
+- Class labels (buildings, asphalt, road markings, people, balconies, windows, water, roads, gravel)  
 (Depending on task)
 
-## Benchmark result
-  rsult on KDS-change detection dataset : 98% pixel accuracy, change detection Precision score 0.5 , change detction recall score : 0.6 
+---
+
+## Benchmark Results
+
+Results on **KDS-Change Detection** dataset:  
+- Pixel accuracy: **98%**  
+- Change detection precision: **0.5**  
+- Change detection recall: **0.6**
 
 ---
 
